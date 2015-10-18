@@ -1,11 +1,16 @@
 #include <stdio.h>
-int main(){
-
-printf("Hello World\n");
-
+typedef struct data{
 char c;
-//scanf("%c",&c);
-
-printf("\bH\bello day \n");
-printf("\b hihihi");
+long arr;
+int i;
+}data;	
+int main(){
+int arr_3[10][10][10];
+printf("%p\t%p\t%p\n",arr_3,*arr_3,**arr_3);
+printf("size of float is %lu\n",sizeof(float));
+data d;
+printf("sizeof data is %lu\n",sizeof(d));
+data arr[2];
+printf("index 0 address is %p index address 1 is %p",&arr[0],&arr[1]);
+return 0;
 }

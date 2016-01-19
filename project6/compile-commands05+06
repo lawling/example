@@ -1,0 +1,3 @@
+gcc studentcode05+06.c ourtest05+06a.c -o ourtest05+06a.x
+gcc studentcode05+06.c ourtest05+06b.c -o ourtest05+06b.x
+gcc studentcode05+06.c ourtest05+06c.c -o ourtest05+06c.x

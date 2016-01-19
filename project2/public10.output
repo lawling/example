@@ -1,0 +1,11 @@
+0x0000: add    R02  R01  R00
+0x0004: mul    R05  R04  R03
+0x0008: and    R08  R07  R06
+0x000c: neg    R09  R10
+0x0010: not    R09  R11
+0x0014: move   R07  R08
+0x0018: halt
+0x0008: and    R08  R07  R06
+0x000c: neg    R09  R10
+0x0010: not    R09  R11
+Both assertions succeeded!

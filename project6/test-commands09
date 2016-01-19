@@ -1,0 +1,3 @@
+./ourtest09a.x < public09a.input
+./ourtest09b.x < public09b.input
+./ourtest09c.x < public09c.input

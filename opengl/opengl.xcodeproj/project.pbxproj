@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CA1AEF91C0B702A00B1F5E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1AEF81C0B702A00B1F5E4 /* main.m */; };
+		1CA1AF001C0B709000B1F5E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA1AEFF1C0B709000B1F5E4 /* Cocoa.framework */; };
+		1CA1AF021C0B709D00B1F5E4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA1AF011C0B709D00B1F5E4 /* OpenGL.framework */; };
+		1CA1AF041C0B70B100B1F5E4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA1AF031C0B70B100B1F5E4 /* GLUT.framework */; };
+		1CA1AF071C0B70FF00B1F5E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1AF051C0B70FF00B1F5E4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,11 @@
 
 /* Begin PBXFileReference section */
 		1CA1AEF51C0B702A00B1F5E4 /* opengl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CA1AEF81C0B702A00B1F5E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CA1AEFF1C0B709000B1F5E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1CA1AF011C0B709D00B1F5E4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1CA1AF031C0B70B100B1F5E4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		1CA1AF051C0B70FF00B1F5E4 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1CA1AF081C0B717000B1F5E4 /* hw5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hw5.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA1AF041C0B70B100B1F5E4 /* GLUT.framework in Frameworks */,
+				1CA1AF021C0B709D00B1F5E4 /* OpenGL.framework in Frameworks */,
+				1CA1AF001C0B709000B1F5E4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +51,9 @@
 		1CA1AEEC1C0B702A00B1F5E4 = {
 			isa = PBXGroup;
 			children = (
+				1CA1AF031C0B70B100B1F5E4 /* GLUT.framework */,
+				1CA1AF011C0B709D00B1F5E4 /* OpenGL.framework */,
+				1CA1AEFF1C0B709000B1F5E4 /* Cocoa.framework */,
 				1CA1AEF71C0B702A00B1F5E4 /* opengl */,
 				1CA1AEF61C0B702A00B1F5E4 /* Products */,
 			);
@@ -57,7 +70,8 @@
 		1CA1AEF71C0B702A00B1F5E4 /* opengl */ = {
 			isa = PBXGroup;
 			children = (
-				1CA1AEF81C0B702A00B1F5E4 /* main.m */,
+				1CA1AF051C0B70FF00B1F5E4 /* main.cpp */,
+				1CA1AF081C0B717000B1F5E4 /* hw5.h */,
 			);
 			path = opengl;
 			sourceTree = "<group>";
@@ -118,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA1AEF91C0B702A00B1F5E4 /* main.m in Sources */,
+				1CA1AF071C0B70FF00B1F5E4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,9 @@
+#!/bin/tcsh
+
+# CMSC 216, Fall 2015, Project #7
+# Public test 8 (public08)
+#
+# Tests the third program with a list of numbers, searching for one number
+# that's somewhere in the list.
+
+spim -file prog3.s < public08.input

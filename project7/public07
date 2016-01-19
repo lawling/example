@@ -1,0 +1,8 @@
+#!/bin/tcsh
+
+# CMSC 216, Fall 2015, Project #7
+# Public test 7 (public07)
+#
+# Tests the second program with a negative number.
+
+spim -file prog2.s < public07.input

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#
+# This test checks the exit status of your program on an input that has more
+# than 200 words.  The somewhat-cryptic "> /dev/null 2>&1" just throws away
+# all of your program's output, because we don't care about it for this
+# test- only its exit status is being examined.
+#
+
+./paper-length.x < paper2 > /dev/null 2>&1
+
+if [ $? == 0 ]; then
+  echo 'Win!'
+  exit 0
+else
+  echo ''
+  echo 'Fail!  (Exit status of paper-length.x was wrong.)'
+  exit -1
+fi

@@ -1,0 +1,3 @@
+gcc studentcode07.c ourtest07a.c -o ourtest07a.x
+gcc studentcode07.c ourtest07b.c -o ourtest07b.x
+gcc studentcode07.c ourtest07c.c -o ourtest07c.x

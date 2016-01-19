@@ -1,0 +1,10 @@
+#!/bin/tcsh
+
+# CMSC 216, Fall 2015, Project #7
+# Public test 3 (public03)
+#
+# Tests the first program with values such that there are several multiples
+# of the third number between the first two, including the first number
+# itself (a boundary condition).
+
+spim -file prog1.s < public03.input

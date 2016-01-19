@@ -1,0 +1,5 @@
+lw     R06  00064
+li     R10  00032
+sw     R09  00124
+read   R08
+write  R07

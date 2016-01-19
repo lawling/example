@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#
+# This test checks the output of your program on an input that has more than
+# 200 words.
+#
+
+./paper-length.x < paper2 | diff -uwi - public2.output
+
+if [ $? == 0 ]; then
+  echo 'Win!'
+  exit 0
+else
+  echo ''
+  echo 'Fail!  (Output differed from expected output.)'
+  exit -1
+fi
